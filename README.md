@@ -50,4 +50,4 @@ GOPROXY=direct go get https://github.com/reiver/go-hexpalette
 
 ## Author
 
-Package **hexpalette** was written by [Charles Iliya Krempeaux](http://changelog.ca)
+Package **hexpalette** was written by [Charles Iliya Krempeaux](http://reiver.link)
