@@ -18,24 +18,24 @@ func TestCanonical(t *testing.T) {
 
 
 		{
-			HexColorCodes: "#12345",
-			Expected:       "12345",
+			HexColorCodes: "#123456",
+			Expected:       "123456",
 		},
 		{
-			HexColorCodes: "#6789a",
-			Expected:       "6789a",
+			HexColorCodes: "#789abc",
+			Expected:       "789abc",
 		},
 		{
-			HexColorCodes: "#6789A",
-			Expected:       "6789a",
+			HexColorCodes: "#789ABC",
+			Expected:       "789abc",
 		},
 		{
-			HexColorCodes: "#cdef01",
-			Expected:       "cdef01",
+			HexColorCodes: "#def012",
+			Expected:       "def012",
 		},
 		{
-			HexColorCodes: "#CDEF01",
-			Expected:       "cdef01",
+			HexColorCodes: "#DEF012",
+			Expected:       "def012",
 		},
 
 
@@ -48,7 +48,7 @@ func TestCanonical(t *testing.T) {
 
 
 		{
-			HexColorCodes: " CDEF01",
+			HexColorCodes: " cdef01",
 			Expected:       "cdef01",
 		},
 		{

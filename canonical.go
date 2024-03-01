@@ -46,5 +46,10 @@ func Canonical(str string) (string, error) {
 		}
 	}
 
+	if 0 != len(p) % 6 {
+panic(string(p))
+		return "", errBadColors
+	}
+
 	return string(p), nil
 }
